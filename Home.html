@@ -9,6 +9,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@400;600&family=Poppins:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
+        body{
+            background-image:url(assets/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         .Career{
             color: rgb(117, 223, 163);
             background-color: rgb(35, 16, 27);
@@ -32,6 +37,12 @@
             list-style-type: square;
             font-family: 'Roboto', sans-serif;
         }
+        #GIF li::before{
+            content: "👉";
+        }
+        #GIF li{
+            list-style-type: none;
+        }
     </style>
 </head>
 <body>
@@ -39,7 +50,7 @@
     <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p>
 
     <h2 class="Career">Professional Summery</h2>
-    <ul>
+    <ul id="GIF">
         <li>Having 5 years of experience in developing Single page Web Applications using <span>Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript, ES6, TypeScript</li>
         <li id="GIT">Experience on working with version control system - GIT and GitHub</li>
         <li> Experience working with JIRA for user stories and bug tracking</li>
